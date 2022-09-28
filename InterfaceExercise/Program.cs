@@ -24,7 +24,7 @@ namespace InterfaceExercise
                 Wheels = 4,
                 Lights = 7,
                 Mirrors = 3,
-                
+
             };
             var truck1 = new Truck
             {
@@ -69,31 +69,8 @@ namespace InterfaceExercise
         /* Create 4 members that Car, Truck, & SUV all have in common.
          * Example: All vehicles have a number of wheels... for now..
          */
-        public interface IVehicle
-        {
-            public int Wheels { get; set; }
-            public int Doors { get; set; }
-            public int Lights { get; set; }
-            public int Mirrors { get; set; }
-        }
 
-        //In ICompany
-
-        /*Create 2 members that are specific to each every company
-         * regardless of vehicle type.
-         *
-         *
-         * Example: public string Logo { get; set; }
-         */
-        public interface ICompany
-        {
-            public string Slogan { get; set; }  
-            public string Brand { get; set; }   
-        }
-                      
-         
-        
-   
-        }
     }
+}
+
 
